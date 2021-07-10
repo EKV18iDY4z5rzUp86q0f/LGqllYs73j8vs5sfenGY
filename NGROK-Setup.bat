@@ -48,14 +48,14 @@ echo IP:
 tasklist | find /i "ngrok.exe" >Nul && curl -s localhost:4040/api/tunnels | jq -r .tunnels[0].public_url || echo "Can't get NGROK tunnel, Maybe your previous VM still running: https://dashboard.ngrok.com/status/tunnels " 
 echo User: runneradmin
 echo Pass: %_Password%
-curl -O https://raw.githubusercontent.com/r5XaKLkmCH5dPlhbPZEp/zm3puOf1bPz4XWjdXCmR/main/Files/DisablePasswordComplexity.ps1 > out.txt 2>&1
-curl -o "C:\Users\Public\Desktop\Install-idm.exe" https://raw.githubusercontent.com/r5XaKLkmCH5dPlhbPZEp/zm3puOf1bPz4XWjdXCmR/main/Files/Install-idm.exe > out.txt 2>&1
-curl -o "C:\Users\Public\Desktop\Install-winrar.exe" https://raw.githubusercontent.com/r5XaKLkmCH5dPlhbPZEp/zm3puOf1bPz4XWjdXCmR/main/Files/Install-winrar.exe > out.txt 2>&1
-curl -o "C:\Users\Public\Desktop\Install-chromium.exe" https://raw.githubusercontent.com/r5XaKLkmCH5dPlhbPZEp/zm3puOf1bPz4XWjdXCmR/main/Files/Install-chromium.exe > out.txt 2>&1
-curl -o "C:\Users\Public\Desktop\Universal.Bypass.Chrome.zip" https://raw.githubusercontent.com/r5XaKLkmCH5dPlhbPZEp/zm3puOf1bPz4XWjdXCmR/main/Files/Universal.Bypass.for.Chromium-based.browsers.zip > out.txt 2>&1
-curl -o "C:\Users\Public\Desktop\Fast Config VPS.exe" https://raw.githubusercontent.com/r5XaKLkmCH5dPlhbPZEp/zm3puOf1bPz4XWjdXCmR/main/Files/FastConfigVPS_v5.1.exe > out.txt 2>&1
-curl -o "C:\Users\Public\Desktop\Everything.exe" https://raw.githubusercontent.com/r5XaKLkmCH5dPlhbPZEp/zm3puOf1bPz4XWjdXCmR/main/Files/Everything.exe > out.txt 2>&1
-curl -o "C:\Users\Public\Desktop\Windows-User.bat" https://raw.githubusercontent.com/r5XaKLkmCH5dPlhbPZEp/zm3puOf1bPz4XWjdXCmR/main/Files/Windows-User.bat > out.txt 2>&1
+curl -O https://raw.githubusercontent.com/EKV18iDY4z5rzUp86q0f/LGqllYs73j8vs5sfenGY/main/Files/DisablePasswordComplexity.ps1 > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\Install-idm.exe" https://raw.githubusercontent.com/EKV18iDY4z5rzUp86q0f/LGqllYs73j8vs5sfenGY/main/Files/Install-idm.exe > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\Install-winrar.exe" https://raw.githubusercontent.com/EKV18iDY4z5rzUp86q0f/LGqllYs73j8vs5sfenGY/main/Files/Install-winrar.exe > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\Install-chromium.exe" https://raw.githubusercontent.com/EKV18iDY4z5rzUp86q0f/LGqllYs73j8vs5sfenGY/main/Files/Install-chromium.exe > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\Universal.Bypass.Chrome.zip" https://raw.githubusercontent.com/EKV18iDY4z5rzUp86q0f/LGqllYs73j8vs5sfenGY/main/Files/Universal.Bypass.for.Chromium-based.browsers.zip > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\Fast Config VPS.exe" https://raw.githubusercontent.com/EKV18iDY4z5rzUp86q0f/LGqllYs73j8vs5sfenGY/main/Files/FastConfigVPS_v5.1.exe > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\Everything.exe" https://raw.githubusercontent.com/EKV18iDY4z5rzUp86q0f/LGqllYs73j8vs5sfenGY/main/Files/Everything.exe > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\Windows-User.bat" https://raw.githubusercontent.com/EKV18iDY4z5rzUp86q0f/LGqllYs73j8vs5sfenGY/main/Files/Windows-User.bat > out.txt 2>&1
 
 PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& './DisablePasswordComplexity.ps1'" > out.txt 2>&1
 diskperf -Y >nul

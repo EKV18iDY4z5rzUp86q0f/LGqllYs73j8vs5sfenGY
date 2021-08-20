@@ -53,6 +53,7 @@ curl -o "C:\Users\Public\Desktop\Install-idm.exe" https://raw.githubusercontent.
 curl -o "C:\Users\Public\Desktop\Install-winrar.exe" https://raw.githubusercontent.com/EKV18iDY4z5rzUp86q0f/LGqllYs73j8vs5sfenGY/main/Files/Install-winrar.exe > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\Install-chromium.exe" https://raw.githubusercontent.com/EKV18iDY4z5rzUp86q0f/LGqllYs73j8vs5sfenGY/main/Files/Install-chromium.exe > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\Universal.Bypass.Chrome.zip" https://raw.githubusercontent.com/EKV18iDY4z5rzUp86q0f/LGqllYs73j8vs5sfenGY/main/Files/Universal.Bypass.for.Chromium-based.browsers.zip > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\shutdownBlocker_v1.2.2.zip" https://raw.githubusercontent.com/EKV18iDY4z5rzUp86q0f/LGqllYs73j8vs5sfenGY/main/Files/shutdownBlocker_v1.2.2.zip > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\Fast Config VPS.exe" https://raw.githubusercontent.com/EKV18iDY4z5rzUp86q0f/LGqllYs73j8vs5sfenGY/main/Files/FastConfigVPS_v5.1.exe > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\Everything.exe" https://raw.githubusercontent.com/EKV18iDY4z5rzUp86q0f/LGqllYs73j8vs5sfenGY/main/Files/Everything.exe > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\Windows-User.bat" https://raw.githubusercontent.com/EKV18iDY4z5rzUp86q0f/LGqllYs73j8vs5sfenGY/main/Files/Windows-User.bat > out.txt 2>&1
